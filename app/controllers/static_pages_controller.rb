@@ -4,4 +4,11 @@ class StaticPagesController < ApplicationController
 
   def help
   end
+
+  def sign_up
+  end
+
+  def log_in
+  end
+  
 end

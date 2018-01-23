@@ -9,6 +9,19 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header class ="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <nav>
+          <ul class="navbar navbar-nav narbar-right">
+            <li> <% link_to "home", "#"%> </li>
+            <li> <% link_to "help", "#"%> </li>
+            <li> <% link_to "log_in", "#"%> </li>
+          </ul>
+        <nav>
+      <div>
+    <header>
+    <div class= "container">
+      <%= yield %>
+    <div>
   </body>
 </html>

@@ -3,6 +3,9 @@ Rails.application.routes.draw do
 
   get 'static_pages/help'
 
+  get 'static_pages/sign_up'
+
+  get 'static_pages/log_in'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  root 'application#hello'
+  root 'static_pages/home'
 end
